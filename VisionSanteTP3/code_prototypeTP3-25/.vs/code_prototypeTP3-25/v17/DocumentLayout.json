@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\classes\\blesure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:classes\\blesure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|c:\\users\\ubertg\\desktop\\examen-final-poo\\visionsantetp3\\code_prototypetp3-25\\classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB16B99-9114-426E-B92E-73968F53F56E}|code_prototypeTP3-25.csproj|solutionrelative:classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Blesure.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Blesure.cs",
+              "RelativeDocumentMoniker": "classes\\Blesure.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Blesure.cs",
+              "RelativeToolTip": "classes\\Blesure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:09:56.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Maladie.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Maladie.cs",
+              "RelativeDocumentMoniker": "classes\\Maladie.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Maladie.cs",
+              "RelativeToolTip": "classes\\Maladie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:07:58.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Citoyen.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Citoyen.cs",
+              "RelativeDocumentMoniker": "classes\\Citoyen.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Citoyen.cs",
+              "RelativeToolTip": "classes\\Citoyen.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:03:38.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Probleme.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Probleme.cs",
+              "RelativeDocumentMoniker": "classes\\Probleme.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\classes\\Probleme.cs",
+              "RelativeToolTip": "classes\\Probleme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:03:08.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "U.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\U.cs",
+              "RelativeDocumentMoniker": "U.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\U.cs",
+              "RelativeToolTip": "U.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswE4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:34:56.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\UbertG\\Desktop\\EXAMEN-FINAL-POO\\VisionSanteTP3\\code_prototypeTP3-25\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:34:52.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
