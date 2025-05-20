@@ -1,70 +1,86 @@
-﻿using System;
+﻿namespace Tp3_VisionSante;
 
-
-namespace Tp3_VisionSante
+internal  class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static Citoyen cit = new();
-        static void Main(string[] args)
-        {
-            if (args.Length != 0)
-            {
-                U.Titre("Execution Admin");
-                ExecutionAdmin();
-                return;
-            }
-
-            Console.BackgroundColor = ConsoleColor.Gray;
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
-            
-            Menu menu = new Menu("Profils offerts");
-
-            menu.AjouterOption(new MenuItem('C', "Profil citoyen", ProfilCitoyen));
-            menu.AjouterOption(new MenuItem('P', "Profil professionnel de la santé", ProfilProfessionnelSante));
-
-            menu.SaisirOption();
+        Parseur.ChargerPopulation();
+        Parseur.ChargerProblemes();
         
-        }
+        Menu menu = new Menu("Profils offerts");
 
-        private static void ExecutionAdmin()
+        menu.AjouterOption(new MenuItem('C', "Ajouter un citoyen", AjouterCitoyen));
+        menu.AjouterOption(new MenuItem('P', "Ajouter un probleme", AjouterProbleme));
+
+        menu.SaisirOption();
+    }
+
+    private static void AjouterCitoyen()
+    {
+        Utilitaire.ViderEcran();
+        Utilitaire.Titre("Ajout d'un citoyen");
+        
+        Console.Write("Nom: ");
+        string? nom = Console.ReadLine();
+        
+        Console.Write("Naissance: ");
+        string? naissance =  Console.ReadLine();
+        
+        Citoyen citoyen = new(nom, naissance);
+        Utilitaire.Populations.Add(citoyen);
+        
+        Parseur.DechargerPopulation();
+        Console.WriteLine("Population enregistrée!");
+        Utilitaire.Pause();
+    }
+
+    private static void AjouterProbleme()
+    {
+        Utilitaire.ViderEcran();
+        Utilitaire.Titre("Ajout d'un probleme");
+        
+        Console.Write("NAS: ");
+        string? nas = Console.ReadLine();
+        
+        Console.Write("Nom: ");
+        string? nom = Console.ReadLine();
+        
+        Console.Write("Date début (aaaa-mm-jj): ");
+        string? debut = Console.ReadLine();
+        
+        Console.Write("Date guérison (aaaa-mm-jj): ");
+        string? guerison = Console.ReadLine();
+        
+        Console.Write("Description: ");
+        string? description = Console.ReadLine();
+        
+        Console.Write("Blessure (b) ou maladie (m): ");
+        char choix = char.ToLower(Utilitaire.RecupererCaractere());
+        
+        if (choix  == 'b')
         {
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-            Console.ForegroundColor = ConsoleColor.Gray;
-
-            Menu menu = new Menu("Profils offerts");
-
-            menu.AjouterOption(new MenuItem('C', "Ajouter un citoyen", AjouterCitoyen));
-            menu.AjouterOption(new MenuItem('P', "Ajouter un professionnel de la santé", AjouterProfesionnel));
-
-            menu.SaisirOption();
+            Blessure blessure = new(nas, nom, debut, guerison, description);
+            Utilitaire.Problemes.Add(blessure);
         }
-
-        private static void AjouterCitoyen()
+        
+        else if (choix == 'm')
         {
-            U.CLS();
-            U.Titre("Ajout d'un citoyen");
-            U.P();
+            Console.Write("Stade (1,2,3,4): ");
+            string? stade = Console.ReadLine();
+            
+            Maladie maladie = new(nom, nas, debut, guerison, description, stade);
+            Utilitaire.Problemes.Add(maladie);
         }
 
-        private static void AjouterProfesionnel()
+        else
         {
-            U.CLS();
-            U.Titre("Ajout d'un professionnel");
-            U.P();
+            Console.WriteLine("Erreur dans l'enregistrement des informations. Enregistrement annulé!");
+            Utilitaire.Pause();
+            return;
         }
-
-        private static void ProfilCitoyen()
-        {
-            U.Entete();
-            cit.AfficherSommaire();
-        }
-
-        private static void ProfilProfessionnelSante()
-        {
-            U.Entete();
-            Professionnel ps = new();
-            ps.AfficherSommaire();
-        }
+        
+        Parseur.DechargerProbleme();
+        Console.WriteLine("\nProbleme enregistré!");
+        Utilitaire.Pause();
     }
 }
